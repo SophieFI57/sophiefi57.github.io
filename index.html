@@ -1,7 +1,112 @@
-<!DOCTYPE html>
+
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+   <head>
+   
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162766962-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-162766962-1');
+</script>
+
+<script language="JavaScript">
+function aleatoire() {
+// nombre total de citations
+var nombre_textes = 10;
+// on demande un nombre aleatoire a l'ordinateur
+var nombre_aleatoire = Math.random();
+var numero = Math.round( ( nombre_textes - 1 ) * nombre_aleatoire ) + 1;
+textes = new Array;
+// textes disponibles
+textes[1] = "Proposer mon aide sur https://covid19.reserve-civique.gouv.fr/";
+textes[2] = "Appeler ma mairie pour voir comment aider localement les personnes en difficulté";
+textes[3] = "Passer un coup de fil à mes voisins avant d'aller faire mes courses pour voir s'ils n'ont besoin de rien";
+textes[4] = "Faire mes emplettes localement pour soutenir nos producteurs";
+textes[5] = "Participer ou lancer une cagnotte solidaire pour aider ceux qui en ont le plus besoin en ce moment";
+textes[6] = "Proposer mon aide aux soignants sur https://clapp.fr/";
+textes[7] = "Enrichir la cartographie des solutions d'entraide : https://covidentraide.gogocarto.fr/annuaire#/carte/lille@50.631,2.997,13z?cat=all";
+textes[8] = "Proposer mon aide sur https://covid19.reserve-civique.gouv.fr/";
+textes[9] = "Proposer mon aide sur https://covid19.reserve-civique.gouv.fr/";
+textes[10] = "Proposer mon aide sur https://covid19.reserve-civique.gouv.fr/";
+document.getElementById("mon_texte_aleatoire").innerHTML = textes[numero];
+}
+</script>
+
+
+       <title>Depuis combien de temps est-on confiné?</title>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	   <META HTTP-EQUIV="refresh" CONTENT="60;URL=http://depuis-combien-de-temps-est-on-confine.fr">
+       <style type="text/css">
+           body {
+              text-align:center;
+              padding-top:100px
+           }
+       </style>
+
+   </head>
+
+   <body onload="aleatoire();"
+		
+		
+			<h2><font size=5>Nous sommes confinés depuis</font><h2>
+			<!-- Display the countdown timer in an element -->
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting up to
+var countUpDate = new Date("March 17, 2020 12:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = now - countUpDate;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "j " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+			<h3<font size=3>Plutôt que de compter, c'est le moment de prendre du temps pour toi et les autres :)</font>		<br><br><br><br>
+			<font size=3>Que pourrais-je faire aujourd'hui?<br></font></h3>
+			<div id="mon_texte_aleatoire"></div>
+	
+
+		
+		<br />
+
+
+   </body>
 </html>
+
+
+
+
+
+</head>
+
+
+
+
+ 
+
+</body></html>
