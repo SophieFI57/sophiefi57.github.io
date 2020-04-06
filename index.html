@@ -1,4 +1,3 @@
-
 <html>
    <head>
    
@@ -37,7 +36,11 @@ document.getElementById("mon_texte_aleatoire").innerHTML = textes[numero];
 
 
        <title>Depuis combien de temps est-on confiné?</title>
-       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8";  
+	   name="description" content="Outil pour calculer depuis combien de jours la France est confinée suite au covid19";
+	   name="robots" content="index"/>
+	  
+	   
        <style type="text/css">
            body {
               text-align:center;
@@ -50,7 +53,7 @@ document.getElementById("mon_texte_aleatoire").innerHTML = textes[numero];
    <body onload="aleatoire();"
 		
 		
-			<h2><font size=5>Nous sommes confinés depuis</font><h2>
+			<h1><font size=5>Nous sommes confinés depuis</font><h1>
 			<!-- Display the countdown timer in an element -->
 <p id="demo"></p>
 
@@ -85,8 +88,8 @@ var x = setInterval(function() {
 }, 1000);
 </script>
 
-			<h3<font size=3>Plutôt que de compter, c'est le moment de prendre du temps pour toi et les autres :)</font>		<br><br><br><br>
-			<font size=3>Que pourrais-je faire aujourd'hui?<br></font></h3>
+			<h2<font size=3>Plutôt que de compter, c'est le moment de prendre du temps pour toi et les autres :)</font>		<br><br><br><br>
+			<font size=3>Que pourrais-je faire aujourd'hui?<br></font></h2>
 			<div id="mon_texte_aleatoire"></div>
 	
 
