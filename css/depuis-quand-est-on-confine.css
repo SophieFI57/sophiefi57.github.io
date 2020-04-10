@@ -10,12 +10,17 @@ h1{font-size: 2rem;}
 h2{font-size: 2rem;}
 
 h3{font-size: 1.5rem;
-padding-top: 100px;}
+padding-top: 10px;}
 
 .demo{font-size : 3rem;
 font-weight: bold;}
 
 .mon_texte_aleatoire{font-size: 1rem;}
+
+.container-fluid{background-color: white;}
+.container{background-color: white;
+padding-top: 2rem;}
+
  
 
 
