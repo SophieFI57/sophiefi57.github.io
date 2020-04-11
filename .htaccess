@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://www.depuis-quand-est-on-confine.com/ [R,L]
+
