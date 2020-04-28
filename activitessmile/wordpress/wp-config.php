@@ -23,13 +23,13 @@
 define(je3sevjv_wp294);
 
 /** MySQL database username */
-define(je3sevjv_wp294 );
+define(je3sevjv_wp294);
 
 /** MySQL database password */
-define( activitessmile59* );
+define(activitessmile59*);
 
 /** MySQL hostname */
-define(mysql5.amen.fr);
+define(localhost);
 
 /** Database Charset to use in creating database tables. */
 define(utf8);
